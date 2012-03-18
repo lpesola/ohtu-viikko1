@@ -118,8 +118,9 @@ public class VarastoTest {
     
     @Test
     public void tulostetaanTekstiOikein() {
+        //rikottu
         varasto.lisaaVarastoon(10);
-        String oletustuloste = "saldo = 10.0, vielä tilaa 0.0";
+        String oletustuloste = "saldo = 1000.0, vielä tilaa 0.0";
         boolean oikein = varasto.toString().equalsIgnoreCase(oletustuloste);
         assertEquals(oikein, true);
     }
