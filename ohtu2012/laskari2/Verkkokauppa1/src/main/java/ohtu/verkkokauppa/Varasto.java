@@ -1,24 +1,15 @@
 package ohtu.verkkokauppa;
 
-import java.util.*;
+import java.util.HashMap;
 
-public class Varasto implements Säiliö{
+public class Varasto implements VarastoRajapinta{
 
-    private static Varasto instanssi;
-
-    public static Varasto getInstance() {
-        if (instanssi == null) {
-            instanssi = new Varasto();
-        }
-
-        return instanssi;
-    }
     
-    private Kirjanpito kirjanpito;
+    private KirjanpitoRajapinta kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
-    public Varasto() {
-        kirjanpito = Kirjanpito.getInstance();
+    public Varasto(KirjanpitoRajapinta k) {
+        kirjanpito = k;
         saldot = new HashMap<Tuote, Integer>();
         alustaTuotteet();
     }

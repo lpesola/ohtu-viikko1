@@ -2,7 +2,7 @@ package ohtu.verkkokauppa;
 
 import java.util.ArrayList;
 
-public class Ostoskori implements Ostokset{
+public class Ostoskori {
 
     ArrayList<Tuote> tuotteet;
 
