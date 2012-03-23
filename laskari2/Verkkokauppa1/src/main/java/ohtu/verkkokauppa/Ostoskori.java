@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Ostoskori {
 
-    ArrayList<Tuote> tuotteet;
+    private ArrayList<Tuote> tuotteet;
 
     public Ostoskori() {
         tuotteet = new ArrayList<Tuote>();

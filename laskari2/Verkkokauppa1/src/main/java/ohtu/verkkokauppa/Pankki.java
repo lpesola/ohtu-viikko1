@@ -1,6 +1,6 @@
 package ohtu.verkkokauppa;
 
-class Pankki {
+public class Pankki {
 
     private static Pankki instanssi;
 

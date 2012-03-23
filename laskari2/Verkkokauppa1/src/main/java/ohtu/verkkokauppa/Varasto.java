@@ -17,7 +17,7 @@ public class Varasto {
     private Kirjanpito kirjanpito;
     private HashMap<Tuote, Integer> saldot;  
     
-    public Varasto() {
+    private Varasto() {
         kirjanpito = Kirjanpito.getInstance();
         saldot = new HashMap<Tuote, Integer>();
         alustaTuotteet();
