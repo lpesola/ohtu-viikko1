@@ -26,21 +26,21 @@
             <groupId>org.easyb</groupId>
             <artifactId>easyb-core</artifactId>
             <version>${easyb.version}</version>
-            <scope>compile</scope>        
+            <scope>test</scope>        
         </dependency>
         
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit-dep</artifactId>
             <version>4.10</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
             
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <version>1.1</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
         
          <!-- SPRING -->
