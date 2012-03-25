@@ -21,7 +21,7 @@ public class InMemoryUserDao implements UserDao {
     @Override
     public User findByName(String name) {
         for (User user : users) {
-            if (user.getUsername().equals(user)) {
+            if (user.getUsername().equals(name)) {
                 return user;
             }
         }
