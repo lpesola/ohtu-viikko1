@@ -43,6 +43,8 @@ public class AuthenticationService {
 
     private boolean invalid(String username, String password) {
         // validity check of username and password
+        // kaikki oleellinen lienee kuitenkin hoidettu UserCreation.java:ssa olevien
+        // validointien avulla eli täällä ei tarvitse tehdä mitään
 
         return false;
     }
