@@ -20,7 +20,7 @@ scenario "creation succesfull with correct username and password", {
         element.sendKeys("useruser")
         element = driver.findElement(By.name("password"))
         element.sendKeys("correctP4ssword")
-        element = driver.findElement(By.name("confirmPassword"))
+        element = driver.findElement(By.name("confirm password"))
         element.sendKeys("correctP4ssword")
         element = driver.findElement(By.name("add"))
         element.submit()      
