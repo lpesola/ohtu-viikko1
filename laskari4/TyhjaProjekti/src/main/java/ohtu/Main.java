@@ -27,9 +27,6 @@ public class Main {
  
         String bodyText = IOUtils.toString(stream);
  
-        System.out.println("json-muotoinen data:");
-        System.out.println( bodyText );
- 
         Gson mapper = new Gson();
         Palautukset palautukset = mapper.fromJson(bodyText, Palautukset.class);
  
